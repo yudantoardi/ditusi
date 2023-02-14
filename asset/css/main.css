@@ -694,6 +694,13 @@ footer h4{
     line-height: 150%;
     margin-bottom: 8px;
 }
+.article h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(255,255,255,0.8);
+    line-height: 150%;
+    margin-bottom: 8px;
+}
 .article-header .date{
     font-size: 18px;
     color: rgba(255,255,255,0.8);
@@ -707,6 +714,41 @@ footer h4{
     line-height: 150%;
     width: 100%;
     float: left;
+}
+
+.article-ct hr{
+    width: 100%;
+    float: left;
+    border-color: #C9C9C9;
+    opacity: 0.2;
+    margin: 24px 0;
+}
+
+.article-ct ul{
+    list-style: none;
+    padding-left: 0;
+}
+.article-ct ul li{
+    width: 100%;
+    float: left;
+    position: relative;
+    padding-left: 52px;
+    margin-bottom: 16px;
+}
+.article-ct ul li::before{
+    content: "";
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/check-in-circle.svg);
+}
+.article-ct h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: rgba(255,255,255,0.8);
 }
 
 .buying-step-card{
