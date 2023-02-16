@@ -99,7 +99,9 @@ figure img{
     right: 16px;
     top: 48px;
 }
-
+.f-18{font-size: 18px !important;}
+.f-20{font-size: 20px !important;}
+.f-bold{font-weight: 700 !important;}
 
 .btn{
     padding: 15px 30px;
@@ -650,6 +652,35 @@ footer h4{
     z-index: 2;
 }
 
+.page-cover .text-group{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0 16px;
+    z-index: 2;
+    color: #fff;
+}
+.page-cover .text-group h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.page-cover .text-group .timer{
+    font-size: 24px;
+    color: #d18002;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.page-cover .text-group p{
+    font-size: 18px;
+    font-weight: 700;
+}
+.page-cover .text-group p span{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .page-nav{
     width: 100%;
     max-width: 480px;
@@ -811,6 +842,89 @@ footer h4{
     font-weight: 500;
     color: #1E222E;
     margin-top: 16px;
+}
+
+.buying-step-card.dark{
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+}
+.buying-step-card.dark h5,
+.buying-step-card.dark table td,
+.buying-step-card.dark td a{
+    color: #fff;
+}
+.buying-step-card.dark td a{
+    font-weight: 600;
+}
+.buying-step-card.dark table td{
+    font-size: 16px;
+}
+.ico-btn{
+    border: none;
+    background: none;
+}
+.buying-step-card.dark table hr{
+    background: rgba(255,255,255,0.2);
+}
+
+.qr-code-wrap{
+    width: 100%;
+    float: left;
+}
+.qr-code-wrap img.qr-code{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin: auto;
+}
+.qr-code-wrap button{
+    border: none;
+    background: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+.buying-step-card .card-header{
+    width: 100%;
+    float: left;
+    padding: 0;
+    background: none;
+    border: none;
+    margin-bottom: 16px;
+}
+.buying-step-card .card-header .pic{
+    width: 64px;
+    float: left;
+}
+.buying-step-card .card-header h5{
+    width: calc(100% - 64px);
+    float: left;
+    padding-left: 16px;
+}
+
+.tag{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 16px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    width: auto;
+    display: inline-block;
+}
+.tag.pending{
+    background: #FFE8CD;
+    color: #AE6005;
+}
+.tag.selesai{
+    background: #D7F4DE;
+    color: #048322;
+}
+.tag.batal{
+    background: #FFE6E5;
+    color: #9A1611;
 }
 
 .card{
