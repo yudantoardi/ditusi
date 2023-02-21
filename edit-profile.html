@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="asset/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="asset/css/bootstrap.css">
+    <link rel="stylesheet" href="asset/css/fontawesome-all.css">
+    <link rel="stylesheet" href="asset/css/owl.carousel.css">
+    <link rel="stylesheet" href="asset/css/main.css">
+    
+</head>
+<body>
+    
+    <div class="master">
+
+        <!--HEADER START-->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <a href="index.html" class="logo">
+                            <img src="asset/images/logo-no-text.png" alt="">
+                            <span>DITUSI</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--HEADER END-->
+
+        <!--BOTTOM NAV START-->
+        <section class="bottom-nav">
+            <a href="#">
+                <img src="asset/images/icon-house.svg" alt="">
+                <span>Beranda</span>
+            </a>
+            <a href="#">
+                <img src="asset/images/icon-transaksi.svg" alt="">
+                <span>Transaksi</span>
+            </a>
+            <a href="#" class="active">
+                <img src="asset/images/user.svg" alt="">
+                <span>Akun</span>
+            </a>
+        </section>
+        <!--BOTTOM NAV END-->
+
+        <!--PROFILE START-->
+        <section class="profile">
+            <div class="page-nav top-1">
+                <a href="#" class="btn-back"><i class="fa fa-arrow-left"></i></a>
+            </div>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="page-title mb-4">Ubah Profile</h2>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-12">
+                        <form action="">
+                            <div class="input-group text-center">
+                                <div class="profile-picture">
+                                    <figure class="ratio ratio-1 is-circle">
+                                        <img src="asset/images/bank/profile.png" alt="">
+                                    </figure>
+                                    <input type="file">
+                                </div>
+                            </div>
+                            <div class="input-group">
+                                <label for="">Nama</label>
+                                <input type="text" placeholder="Your Name">
+                            </div>
+                            <div class="input-group">
+                                <label for="">Nomor HP (Whatsapp)</label>
+                                <input type="text" placeholder="No. Whatsapp">
+                            </div>
+                            <div class="input-group">
+                                <label for="">Email</label>
+                                <input type="text" placeholder="Your Email">
+                            </div>
+                            <div class="input-group mt-3">
+                                <button class="btn btn-primary fullwidth">Simpan</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--PROFILE END-->
+
+        
+
+    </div>
+
+    <script src="asset/js/jquery-1.11.0.min.js"></script>
+    <script src="asset/js/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".hero").owlCarousel({
+                singleItem: true,
+                pagination: true
+            });
+        });
+    </script>
+</body>
+</html>
