@@ -774,6 +774,11 @@
                 prevSlide();
             });
         });
+
+        $(".faq-question").click(function(){
+            $(".faq-item").removeClass("active");
+            $($(this).parent()).addClass("active");
+        });
     </script>
 </body>
 </html>
